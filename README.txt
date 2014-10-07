@@ -6,3 +6,5 @@ Files:
 twoleds.ino   blink RX and TX LEDs
 
 chiptemp.ino  display internal chip temperature on number module and tty
+
+chkvcc.ino    report current Vcc, measured against 1.1v bandgap
