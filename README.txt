@@ -14,3 +14,5 @@ iommap.c      cloudbit chip temperature
 dacmmap.c     cloudbit last DAC setting
 
 adcdac.py     python with cloud API to read ADC and set DAC
+
+adcdac.pl     perl read ADC and set DAC, run on cloudbit
