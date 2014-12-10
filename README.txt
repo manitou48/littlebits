@@ -12,3 +12,5 @@ chkvcc.ino    report current Vcc, measured against 1.1v bandgap
 iommap.c      cloudbit chip temperature 
 
 dacmmap.c     cloudbit last DAC setting
+
+adcdac.py     python with cloud API to read ADC and set DAC
