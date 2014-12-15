@@ -1,0 +1,26 @@
+    litttlebits power consumption   revised 12/15/14
+
+  bargraph 26.4 ma
+  number 19.47 ma
+  dimmer 0.64 ma
+  dimmer+servo (analog mode) 13.6 to 70 ma
+  dimmer+servo (pwm) 13 to 25 ma (servo stall 200+ ma)
+  dimmer+number+servo(analog) 0v 47ma, 1v 50-60ma, 2v 65-70ma, 4v 68-78ma, 5v 67-96ma
+  arduino 33ma, with bargraph on (d5 HIGH) 57 ma
+  
+
+
+arduino (leonardo) 5v @ 16MHz, pins in OUTPUT mode
+  run 26ma    (17ma @ 8mhz,  13ma @4mzh)
+  idle 19ma
+  power_down 0.68 ma
+
+cloudbit   5v 2amp
+  (low power,default, 247MHz) 280ma (155 ma "steady state")
+  (hi power, 454Mhz) 402ma (steady 166 to 242ma)
+  with USB wifi removed: 160ma booting, 78ma to 133ma (flashing yellow)
+  you can read chip temp from ADC: low power: 103F  high power: 119F
+   tempeature rises with CPU in tight loop
+
+power data on other MCUs at 
+  https://github.com/manitou48/DUEZoo/blob/master/power.txt
