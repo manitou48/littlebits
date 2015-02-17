@@ -23,8 +23,8 @@ class Bit:
 			yield line   # just fetch one line
         return
 
-auth = "whatever0"
-id = "whatever"
+auth = "whatever"
+id = "whatever0"
 bit = Bit(auth,id)
 while(1):
 	r=bit.input()
